@@ -9,10 +9,10 @@ public class Febonacci{
   }
   public static int prog(int i){
     if(i == 1 || i == 2){
-      prog(i) = 1;
+      return 1;
     }
     else{
-      prog(i) = prog(i-1)+prog(i-2)
+      return prog(i-1)+prog(i-2);
     }
   }
 }
